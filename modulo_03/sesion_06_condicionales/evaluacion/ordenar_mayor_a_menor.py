@@ -17,9 +17,10 @@ def ordenar_lista(lista):
                 hay_cambio = True
     return lista_ordenada
 
+largo_lista_a_ordenar = 3
 
-lista_a_ordenar = [random.randint(1, 1000) for _ in range(3)]
+lista_a_ordenar = [random.randint(1, 1000) for _ in range(largo_lista_a_ordenar)]
 lista_ordenada = ordenar_lista(lista_a_ordenar)
 
-print(f'lista original:\n{lista_a_ordenar}\n')
-print(f'lista ordenada:\n{lista_ordenada}\n')
+print(f'Lista a ordenar:\n{lista_a_ordenar}\n')
+print(f'Lista ordenada:\n{lista_ordenada}\n')

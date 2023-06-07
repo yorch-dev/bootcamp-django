@@ -1,0 +1,1 @@
+create unique index venta__idx on "Venta"(vehiculo_id_vehiculo)
